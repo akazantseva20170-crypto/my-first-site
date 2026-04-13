@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="RU-ru">
+<head>
+    <meta charset="UTF-8">
+    <title> контакты </title>
+<head>
+    <meta charset="UTF-8">
+    <title>Главная - Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <h1>Контакты</h1>
+        <nav>
+            <a href="index.html">Главная</a> 
+            <a href="about.html">Обо мне</a> 
+            <a href="contacts.html">Контакты</a>
+            <a href="gallery.html">Галерея</a>
+            <a href="portfolio.html">Портфолио</a> 
+        </nav>
+    </header>
+    <main>
+        <h2> Свяжитесь со мной</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" placeholder="Бобёр">
+            </p>
+            
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Bobrik@mail.ru">
+            </p>
+
+            <p>
+                <label>Предпочтительная дата ответа:</label><br>
+                <input type="date"> 
+            </p>
+
+            <p>
+                <label>кто вы?:</label><br>
+                <input type="radio" name="gender"> Кошка
+                <input type="radio" name="gender"> Собака 
+                <input type="radio" name="gender"> Бобёр?
+            </p>
+
+            <p>
+                <label for="message">Сообщение:</label><br>
+                <textarea id="message" name="message" 
+                  rows="5" cols="40" placeholder="Напишите что-нибудь..."></textarea>
+            </p>        
+
+            <p>
+                <input type="checkbox"> Согласен с условиями 
+            </p>
+
+            <p>
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </p>
+        </form>    
+
+        <h3>Или напишите мне:</h3>
+     
+        <ul class="contact-list">
+    <li>Email: my@email.com</li>
+    <li>Телефон: +7 (999) 123-45-67</li>
+    <li>Соцсети: <a href="#">ВКонтакте</a></li>
+        </ul>
+
+    </main>
+    <footer>
+        <p>&copy; 2026</p>
+    </footer>
+</body>
+</html>
+

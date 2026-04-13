@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="RU-ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитка - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Мой первый сайт</h1>
+        <nav>
+            <a href="index.html">Главная</a> 
+            <a href="about.html">Обо мне</a> 
+            <a href="portfolio.html">Портфолио</a>
+            <a href="gallery.html">Галерея</a> 
+            <a href="contacts.html">Контакты</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="welcome-section">
+            <h2 class="center-text">Добро пожаловать!</h2>
+            <p class="center-text">
+                Это мой первый сайт, созданный на чистом HTML.<br>
+                Здесь я учусь верстке и пробую разные теги.
+            </p>
+            
+            <div class="photo-container">
+                <img src="my_photo.jpg" alt="это я" class="round-photo">
+                <img src="photo2.jpg" alt="Второе фото" class="round-photo">
+            </div>
+
+            <div class="video-container">
+                <video src="my_video.mp4" width="450" controls muted playsinline
+       onmouseover="this.play()" 
+       onmouseout="this.pause()">
+    Ваш браузер не поддерживает встроенные видео. 
+               </video>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="center-text">Что я уже умею:</h2>
+            <div class="skills-container">
+                <div class="skill-card">HTML5</div>
+                <div class="skill-card">CSS3</div>
+                <div class="skill-card">Flexbox</div>
+                <div class="skill-card">Семантика</div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 </p>
+    </footer>
+</body>
+</html>
